@@ -1,3 +1,3 @@
-module.exports = function () {
-    return Math.random()
+module.exports.randomInt = function () {
+    return Math.random();
 }

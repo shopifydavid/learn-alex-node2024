@@ -1,4 +1,7 @@
-// пример подключения анониманого модуля
-// модуль не делает ничего, кроме функции, которую он экспортирует
-const m1 = require('./example_module');
-console.log(m1);
+// пример подключения именного модуля
+
+// const m1 = require('./example_module');
+// console.log(m1.randomInt());
+
+const {randomInt} = require('./example_module');
+console.log(randomInt());
