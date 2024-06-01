@@ -70,6 +70,6 @@ function f05() {
 // f05();
 
 // Получить абсолютный путь
-const directoryPath = path.join(__dirname, 'test')
+const directoryPath = path.join(__dirname, 'test');
 console.log(directoryPath); //путь к искомой папке
 console.log(__dirname); //путь к текущей папке
